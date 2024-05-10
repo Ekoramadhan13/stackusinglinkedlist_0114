@@ -50,6 +50,10 @@ public:
             cout << endl;
         }
     }
+
+    bool isEmpty() {
+       
+    }
 };
 int main()
 {
