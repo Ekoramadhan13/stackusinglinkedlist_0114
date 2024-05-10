@@ -100,5 +100,9 @@ int main()
             cout << "invalid choice. try again." << endl;
             break;
         }
+
+        cout << endl;
     }
+
+    return 0;
 }
