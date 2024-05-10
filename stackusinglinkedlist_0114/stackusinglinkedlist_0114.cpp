@@ -59,5 +59,7 @@ public:
 
 int main()
 {
-    
+    stack satck;
+    int choice = 0;
+    int value;
 }
