@@ -59,7 +59,7 @@ public:
 
 int main()
 {
-    stack satck;
+    stack stack;
     int choice = 0;
     int value;
 
@@ -72,7 +72,11 @@ int main()
         cin >> choice;
 
         switch (choice) {
-
+        case 1:
+            cout << "Enter the value to push: ";
+            cin >> value;
+            stack.push(value);
+            break;
         }
     }
 }
